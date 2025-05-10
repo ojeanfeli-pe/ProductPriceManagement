@@ -7,7 +7,7 @@ class Program
     static void Main()
     {
         // Define a string de conexão com o banco Firebird (.FDB)
-        string connectionString = @"Database=C:\GerenciadorDePrecos\GERENCIADORDEPRECOS\BDPANDORA.FDB; DataSource=localhost; Port=3050; User=SYSDBA; Password=12345678; Charset=NONE;";
+        string connectionString = @"Database=C:\ProductPriceManagement\GerenciadorDePrecos\database\BDPANDORA.FDB;DataSource=localhost;Port=3050;User=SYSDBA;Password=masterkey;Charset=NONE;";
 
         // Cria uma conexão com o banco
         using (FbConnection connection = new FbConnection(connectionString))
